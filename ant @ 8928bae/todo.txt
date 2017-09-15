@@ -1,4 +1,0 @@
-https://github.com/Kagency/build-commons
-
-ant @ 8928bae
-Angabe des jeweiligen Commits der build-commons, der im Projekt verwendet wurde.
