@@ -7,6 +7,6 @@
         "phpunit/phpcov": "^4",
         "phpunit/phpunit": "^4",
         "sebastian/phpcpd": "^3.0",        
-        "suizlabs/php_codesniffer": "^3.0"
+        "squizlabs/php_codesniffer": "^3.0"
     }
 }
