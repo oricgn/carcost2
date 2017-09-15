@@ -1,31 +1,3 @@
-<?php
-declare(strict_types=1)
-
-namespace Langzeittest\Carcost\InstallerBundle;
-
-class CreateTableMarke
-{
-
-    public function Create($dbinstance): void
-    {
-    }
-}
-
-/**
-CREATE TABLE `marke` (
-  `mrk_id` int NOT NULL AUTO_INCREMENT,
-  `mrk_art_id` int NOT NULL,
-  `mrk_kurzname` varchar(30) NOT NULL,
-  `mrk_name` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`mrk_id`),
-  INDEX mrk_art_id_i (mrk_art_id),
-  FOREIGN KEY (mrk_art_id)
-    REFERENCES fahrzeugart(art_id)
-    ON DELETE RESTRICT
-    ON UPDATE RESTRICT
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='CarCost 2.0: Marke';
-
-
 INSERT INTO `marke` (`mrk_id`, `mrk_art_id`, `mrk_kurzname`, `mrk_name`) VALUES (NULL, 1, 'Alfa Romeo', NULL);
 INSERT INTO `marke` (`mrk_id`, `mrk_art_id`, `mrk_kurzname`, `mrk_name`) VALUES (NULL, 1, 'Alpina', 'Alpina Burkard Bovensiepen');
 INSERT INTO `marke` (`mrk_id`, `mrk_art_id`, `mrk_kurzname`, `mrk_name`) VALUES (NULL, 1, 'Audi', NULL);
@@ -66,5 +38,3 @@ INSERT INTO `marke` (`mrk_id`, `mrk_art_id`, `mrk_kurzname`, `mrk_name`) VALUES 
 INSERT INTO `marke` (`mrk_id`, `mrk_art_id`, `mrk_kurzname`, `mrk_name`) VALUES (NULL, 2, 'Yamaha', NULL);
 
 INSERT INTO `marke` (`mrk_id`, `mrk_art_id`, `mrk_kurzname`, `mrk_name`) VALUES (NULL, 3, 'Fiat', NULL);
-
-*/
