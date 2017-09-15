@@ -13,7 +13,7 @@ besteht die Möglichkeit Ihre Statistik anderen interessierten Autofahrern zur
 Einsicht freizugeben. 
 
 Hier findet derzeit die Neuentwicklung als Version 2.0 unter dem Aspekt einer 
-professionellen PHP-Entwicklung statt. Inspiriert wurde der Start des Prjekts 
+professionellen PHP-Entwicklung statt. Inspiriert wurde der Start des Projekts 
 durch die Schulung "[Professionelles Entwickeln mit PHP](https://www.linuxhotel.de/kurs/php-profi/)" des [Linuxhotel](https://www.linuxhotel.de/)s.
 
 Ziel ist es, die bisherige Legacy-Anwendung unter
