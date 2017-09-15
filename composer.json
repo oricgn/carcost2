@@ -12,7 +12,7 @@
         "phpunit/phpcov": "@stable",
         "phpunit/phpunit": "@stable",
         "sebastian/phpcpd": "@stable",        
-        "squizlabs/php_codesniffer": "@stable",,
+        "squizlabs/php_codesniffer": "@stable",
         "behat/mink": "@stable",
         "behat/mink-sahi-driver": "@stable",
         "behat/mink-goutte-driver": "@stable"
