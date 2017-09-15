@@ -1,6 +1,16 @@
 <?php
 declare(strict_types=1)
 
+namespace Langzeittest\Carcost\InstallerBundle;
+
+class CreateTableMarke
+{
+
+    public function Create($dbinstance): void
+    {
+    }
+}
+
 /**
 CREATE TABLE `marke` (
   `mrk_id` int NOT NULL AUTO_INCREMENT,

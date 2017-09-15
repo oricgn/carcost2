@@ -1,6 +1,16 @@
 <?php
 declare(strict_types=1)
 
+namespace Langzeittest\Carcost\InstallerBundle;
+
+class CreateTableFahrzeugart
+{
+
+    public function Create($dbinstance): void
+    {
+    }
+}
+
 /**
 CREATE TABLE `fahrzeugart` (
   `art_id` int NOT NULL AUTO_INCREMENT,
@@ -15,11 +25,3 @@ INSERT INTO `fahrzeugart` (`art_id`, `art_name`) VALUES (NULL, 'Wohnmobil');
 INSERT INTO `fahrzeugart` (`art_id`, `art_name`) VALUES (NULL, 'LKW');
 
 */
-
-class CreateTableFahrzeugart
-{
-
-    public function Create($dbinstance): void
-    {
-    }
-}
