@@ -16,7 +16,7 @@
         "behat/mink": "@stable",
         "behat/mink-sahi-driver": "@stable",
         "behat/mink-goutte-driver": "@stable",
-        "kore/DataObject": "@stable"
+        "kore/data-object": "@stable"
     },
     "autoload": {
         "classmap": ["src/"]
